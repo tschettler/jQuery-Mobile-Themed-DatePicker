@@ -1,1 +1,3 @@
 Extends the jQuery UI datepicker to make it suitable for touch devices. 
+
+I have fixed the issues in the original datepicker port from filamentgroup, it now retains the standard datepicker functionality. The override in the plugin is now just for the _updateDatepicker method, rather than $.fn.datepicker. Furthermore, I have minimized the obtrusiveness of the original port as well, so it does not automatically set up the datepickers for you. Any setup for the jQuery Mobile datepicker and the controls which use it should be done separately.
